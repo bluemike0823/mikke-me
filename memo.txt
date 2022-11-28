@@ -1,0 +1,7 @@
+git
+
+git add .
+git commit -m "string"
+
+git remote add origin %yourURL%
+git push -u origin master

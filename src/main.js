@@ -1,3 +1,13 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-createApp(App).mount('#app')
+
+const myapp = createApp(App
+//     ,{data(){
+//         return{
+//             age:"0.4"
+//         }
+//     }
+// }
+)
+myapp.mount('#app')
+// createApp(App).mount('#app')
